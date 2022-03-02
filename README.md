@@ -1,8 +1,7 @@
 *I dont even know if this go snippet works lmao*
 
-### 🤗 Hello good person reading my readme 🤗
-
-As you can see I am a _special_ ❄️snowflake❄️
+### 🤗 Hello good person 🤗
+As you can see I am in need of _special_ mental treatment 
 
 
 ```go
