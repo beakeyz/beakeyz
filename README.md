@@ -40,9 +40,9 @@ func (self Beakeyz) PrintSelf(){
 func main(){
     var me Beakeyz = &Beakeyz{
         Id: 16,
-        FavoriteLangs: []string{"go", "java", "c++/c"}
-        Learning: []string{"C#", "assembly", "networking (fuck me)", "life"}
-        Despises: []string{"javascript (sorry :/ )", "libraries", "social interaction (ew)"}
+        FavoriteLangs: []string{"go", "java", "c++/c"},
+        Learning: []string{"C#", "assembly", "networking (fuck me)", "life"},
+        Despises: []string{"javascript (sorry :/ )", "libraries", "social interaction (ew)"},
         Loves: []string{"skiing", "programming (ofc)", "golang (bae)", "boobies (im down bad, okay?)"}
     }
 
@@ -50,8 +50,9 @@ func main(){
 }
 
 ```
+
 *I dont even know if this go snippet works lmao*
 
-### - 🤗 Hello good person reading my readme
+### 🤗 Hello good person reading my readme 🤗
 
 As you can see I am a _special_ ❄️snowflake❄️
