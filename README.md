@@ -1,3 +1,10 @@
+*I dont even know if this go snippet works lmao*
+
+### 🤗 Hello good person reading my readme 🤗
+
+As you can see I am a _special_ ❄️snowflake❄️
+
+
 ```go
 package beakeyz
 
@@ -42,17 +49,11 @@ func main(){
         Id: 16,
         FavoriteLangs: []string{"go", "java", "c++/c"},
         Learning: []string{"C#", "assembly", "networking (fuck me)", "life"},
-        Despises: []string{"javascript (sorry :/ )", "libraries", "social interaction (ew)"},
-        Loves: []string{"skiing", "programming (ofc)", "golang (bae)", "boobies (im down bad, okay?)"}
+        Despises: []string{"javascript (sorry :/ )", "packages/libraries", "social interaction"},
+        Loves: []string{"skiing", "programming (ofc)", "golang", "boobies (im down bad, okay?)"}
     }
 
     me.PrintSelf()
 }
 
 ```
-
-*I dont even know if this go snippet works lmao*
-
-### 🤗 Hello good person reading my readme 🤗
-
-As you can see I am a _special_ ❄️snowflake❄️
