@@ -16,7 +16,7 @@ type Beakeyz struct{
 // helper function in a readme. Noice
 func getAttribute(a []string) string{
     var val string
-    for index, value := range(a{
+    for index, value := range(a){
         if index == len(a) - 1{
             val = append(val, "and " + value)
         }else{
