@@ -26,7 +26,7 @@ func getAttribute(a []string) string{
         if index == len(a) - 1{
             val = append(val, "and " + value)
         }else{
-            langs = append(langs, value + ", ")
+            val = append(val, value + ", ")
         }
     }
     return val
