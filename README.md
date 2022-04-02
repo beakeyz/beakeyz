@@ -1,7 +1,7 @@
 *I dont even know if this go snippet works lmao*
 
-### 🤗 Hello good person 🤗
-As you can see I am in need of _special_ mental treatment 
+### hi
+I need help
 
 
 ```go
