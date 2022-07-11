@@ -47,9 +47,9 @@ func main(){
     var me Beakeyz = &Beakeyz{
         Id: 16,
         FavoriteLangs: []string{"go", "java", "c++/c"},
-        Learning: []string{"C#", "Rust", "(opperating) systems", "assembly", "networking (fuck me)", "life"},
-        Despises: []string{"javascript (sorry :/ )", "packages/libraries", "social interaction"},
-        Loves: []string{"skiing", "programming (ofc)", "golang", "boobies (im down bad, okay?)"}
+        Learning: []string{"C#", "Rust", "(opperating) systems", "assembly", "networking protocols (fuck me)", "life"},
+        Despises: []string{"javascript, yuck", "third party shit", "social interaction. Yes, im that guy"},
+        Loves: []string{"skiing", "programming", "boobies (its boobies =])"}
     }
 
     me.PrintSelf()
