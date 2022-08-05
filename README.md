@@ -34,12 +34,12 @@ func getAttribute(a []string) string{
 
 // epic
 func (self Beakeyz) PrintSelf(){
-    fmt.Sprintf("My age is: %s", self.Id)
+    fmt.Printf("My age is: %s\n", self.Id)
     
-    fmt.Sprintf("My favorite languages are: %s", getAttribute(self.FavoriteLangs))
-    fmt.Sprintf("I'm currently learning: %s", getAttribute(self.Learning))
-    fmt.Sprintf("I fucking hate: %s", getAttribute(self.Despises))
-    fmt.Sprintf("I absolutely love: %s", getAttribute(self.Loves))
+    fmt.Printf("My favorite languages are: %s\n", getAttribute(self.FavoriteLangs))
+    fmt.Printf("I'm currently learning: %s\n", getAttribute(self.Learning))
+    fmt.Printf("I fucking hate: %s\n", getAttribute(self.Despises))
+    fmt.Printf("I absolutely love: %s\n", getAttribute(self.Loves))
 }
 
 // main function
