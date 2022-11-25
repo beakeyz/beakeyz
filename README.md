@@ -49,7 +49,7 @@ func main(){
         FavoriteLangs: []string{"go", "java", "c++/c"},
         Learning: []string{"C#", "Rust", "(opperating) systems", "assembly", "networking protocols (fuck me)", "life"},
         Despises: []string{"javascript, yuck", "social interaction. Yes, im that guy"},
-        Loves: []string{"skiing", "programming"}
+        Loves: []string{"skiing", "programming", "music"}
     }
 
     me.PrintSelf()
