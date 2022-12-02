@@ -1,8 +1,8 @@
 *I dont even know if this go snippet works lmao*
+let's just assume it does and forget about it, like a GOOD computer scientist
 
 ### hi
-I need help
-
+uhm nothing to see here I swear
 
 ```go
 package beakeyz
