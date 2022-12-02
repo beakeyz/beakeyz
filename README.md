@@ -32,21 +32,21 @@ func getAttribute(a []string) string{
     return val
 }
 
-// epic
+// mega epic
 func (self Beakeyz) PrintSelf(){
     fmt.Printf("My age is: %s\n", self.Id)
     
     fmt.Printf("My favorite languages are: %s\n", getAttribute(self.FavoriteLangs))
     fmt.Printf("I'm currently learning: %s\n", getAttribute(self.Learning))
-    fmt.Printf("I fucking hate: %s\n", getAttribute(self.Despises))
-    fmt.Printf("I absolutely love: %s\n", getAttribute(self.Loves))
+    fmt.Printf("I don't like: %s\n", getAttribute(self.Despises))
+    fmt.Printf("I love: %s\n", getAttribute(self.Loves))
 }
 
-// main function
+// main function (this comment is for people without eyeballs)
 func main(){
     var me Beakeyz = &Beakeyz{
-        Id: 16,
-        FavoriteLangs: []string{"go", "java", "c++/c"},
+        Id: 17,
+        FavoriteLangs: []string{"go", "java", "c"}, // java is just here because of nostalgia, its pretty trash otherwise lol
         Learning: []string{"C#", "Rust", "(opperating) systems", "assembly", "networking protocols (fuck me)", "life"},
         Despises: []string{"javascript, yuck", "social interaction. Yes, im that guy"},
         Loves: []string{"skiing", "programming", "music"}
