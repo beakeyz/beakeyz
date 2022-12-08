@@ -1,8 +1,4 @@
-*I dont even know if this go snippet works lmao*
-let's just assume it does and forget about it, like a GOOD computer scientist
-
-### hi
-uhm nothing to see here I swear
+this sums it up pretty well I guess
 
 ```go
 package beakeyz
