@@ -11,7 +11,7 @@ type Beakeyz struct{
     Id            int
     FavoriteLangs []string
     Learning      []string
-    Despises      []string
+    Hates         []string
     Loves         []string
 }
 
@@ -34,7 +34,7 @@ func (self Beakeyz) PrintSelf(){
     
     fmt.Printf("My favorite languages are: %s\n", getAttribute(self.FavoriteLangs))
     fmt.Printf("I'm currently learning: %s\n", getAttribute(self.Learning))
-    fmt.Printf("I don't like: %s\n", getAttribute(self.Despises))
+    fmt.Printf("I don't like: %s\n", getAttribute(self.Hates))
     fmt.Printf("I love: %s\n", getAttribute(self.Loves))
 }
 
@@ -44,7 +44,7 @@ func main(){
         Id: 17,
         FavoriteLangs: []string{"go", "java", "c"}, // java is just here because of nostalgia, its pretty trash otherwise lol
         Learning: []string{"C#", "Rust", "(opperating) systems", "assembly", "networking protocols (fuck me)", "life"},
-        Despises: []string{"javascript, yuck", "social interaction. Yes, im that guy"},
+        Hates: []string{"javascript, yuck", "social interaction. Yes, im that guy"},
         Loves: []string{"skiing", "programming", "music"}
     }
 
