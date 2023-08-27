@@ -7,7 +7,7 @@ import(
     "fmt"
 )
 
-type Beakeyz struct{
+type Beakeyz struct {
     Id            int
     FavoriteLangs []string
     Learning      []string
@@ -16,12 +16,12 @@ type Beakeyz struct{
 }
 
 // helper function in a readme. Noice
-func getAttribute(a []string) string{
+func getAttribute(a []string) string {
     var val string
-    for index, value := range(a){
-        if index == len(a) - 1{
+    for index, value := range(a) {
+        if index == len(a) - 1 {
             val = append(val, "and " + value)
-        }else{
+        } else {
             val = append(val, value + ", ")
         }
     }
@@ -29,7 +29,7 @@ func getAttribute(a []string) string{
 }
 
 // mega epic
-func (self Beakeyz) PrintSelf(){
+func (self Beakeyz) PrintSelf() {
     fmt.Printf("My age is: %s\n", self.Id)
     
     fmt.Printf("My favorite languages are: %s\n", getAttribute(self.FavoriteLangs))
@@ -39,8 +39,8 @@ func (self Beakeyz) PrintSelf(){
 }
 
 // main function (this comment is for people without eyeballs)
-func main(){
-    var me Beakeyz = &Beakeyz{
+func main() {
+    var me Beakeyz = &Beakeyz {
         Id: 17,
         FavoriteLangs: []string{"go", "java", "c"}, // java is just here because of nostalgia, its pretty trash otherwise lol
         Learning: []string{"C#", "Rust", "(opperating) systems", "assembly", "networking protocols (fuck me)", "life"},
