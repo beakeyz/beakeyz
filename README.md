@@ -41,11 +41,11 @@ func (self Beakeyz) PrintSelf() {
 // main function (this comment is for people without eyeballs)
 func main() {
     var me Beakeyz = &Beakeyz {
-        Id: 17,
+        Id: 18,
         FavoriteLangs: []string{"go", "java", "c"}, // java is just here because of nostalgia, its pretty trash otherwise lol
-        Learning: []string{"C#", "Rust", "(opperating) systems", "assembly", "networking protocols (fuck me)", "life"},
-        Hates: []string{"javascript, yuck", "social interaction. Yes, im that guy"},
-        Loves: []string{"skiing", "programming", "music"}
+        Learning: []string{"C#", "Rust", "(opperating) systems", "assembly"},
+        Hates: []string{"not much atm"},
+        Loves: []string{"skiing", "programming", "music", "crap to do with space"}
     }
 
     me.PrintSelf()
